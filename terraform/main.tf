@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "resume_site" {
 
-  bucket = "farhanazrayl-resume-2026"
+  bucket = var.bucket_name
 
   tags = {
 

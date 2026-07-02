@@ -1,7 +1,5 @@
-# Setting up the best server - Malaysia
-
 provider "aws" {
 
-  region = "ap-southeast-5"
+  region = var.aws_region
 
 }
