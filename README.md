@@ -127,6 +127,8 @@ Lesson Learned
 Hammered down the concept that AWS or cloud computing in general uses the least privillege principle and roles and access should only be given when it is needed and suits the tasks being executed.
 
 
+
+
 Issue 2:
 Incorrect AWS Region Configuration
 
@@ -137,6 +139,8 @@ Changed to aws_region = "ap-southeast-1" for Singapore as I have learned that ev
 
 Lesson Learned
 Keep configuration centralized using Terraform variables and prevent from using hardcodes as much as possible and to learn that familiar and a more mature server is also a factor in choosing a region.
+
+
 
 
 Issue 3:
@@ -153,6 +157,8 @@ Strengthens the knowledge and understanding that Terraform reads resources from 
 Learned that separation in accordance with tasks is very much needed especially in a production-level which would include a large amount of resources and will be shared amongst teams hence separation and readability matters.
 
 
+
+
 Issue 4:
 S3 bucket did not have a bucket policy allowing anonymous read access.
 
@@ -165,6 +171,8 @@ Configured the below:
 
 Lesson Learned
 Disabling "Block Public Access" alone does not make an S3 bucket public and access should be given specifically only when needed; again strenghening the principle of least privillege.
+
+
 
 
 Issue 5:
@@ -180,6 +188,8 @@ Lesson Learned
 CloudWatch is one of the primary debugging tools for AWS serverless applications.
 
 
+
+
 Issue 6:
 Visitor Counter Returned "undefined". The frontend displayed: "undefined" instead of the visitor count.
 
@@ -193,6 +203,8 @@ Lesson Learned
 Be very observant and keep an eye out for even tiny discrepancies as Frontend and backend contracts must match exactly.
 
 
+
+
 Issue 7:
 API Endpoint Misconfiguration - The website attempted to call an incorrect API endpoint.
 
@@ -204,6 +216,8 @@ Updated the frontend to use the correct API Gateway endpoint.
 
 Lesson Learned
 Always verify API endpoints after deployment or infrastructure changes.
+
+
 
 
 Issue 8:
