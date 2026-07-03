@@ -26,25 +26,7 @@ However the console is opened from time to time for reference purposes.
 
 The website is hosted on Amazon S3 and includes a dynamic visitor counter powered by API Gateway, AWS Lambda and Amazon DynamoDB.
 
----
-
-Features of the project:
-
-* Static resume website hosted on Amazon S3
-* Infrastructure provisioned using Terraform
-* Dynamic visitor counter
-* REST API using API Gateway
-* Serverless backend using AWS Lambda
-* Persistent visitor storage using DynamoDB
-* Versioned S3 bucket
-* Server-side encryption enabled
-* Bucket ownership controls
-* Git version control
-* GitHub repository for source control
-
-
->> Please refer to the screenshots for the Architectural Diagrams for this project for a better view of the flow. <<
-
+In this project:
 
 Technologies Involved Throughout the Project
 
@@ -71,7 +53,6 @@ AWS Services Used
 * CloudWatch Logs
 * AWS STS
 
-
 Infrastructure as Code | Infrastructure is managed using Terraform | Current Terraform resources include:
 
 * S3 Bucket
@@ -89,15 +70,25 @@ Infrastructure as Code | Infrastructure is managed using Terraform | Current Ter
 * DynamoDB Table
 * Outputs
 
+Features of the project:
+
+* Static resume website hosted on Amazon S3
+* Infrastructure provisioned using Terraform
+* Dynamic visitor counter
+* REST API using API Gateway
+* Serverless backend using AWS Lambda
+* Persistent visitor storage using DynamoDB
+* Versioned S3 bucket
+* Server-side encryption enabled
+* Bucket ownership controls
+* Git version control
+* GitHub repository for source control
+
 
 Deployment Workflow
 
-GitHub
-    │
-    ▼
-Terraform
-    │
-    ▼
+GitHub > Terraform > 
+
 AWS Infrastructure
     │
     ├── S3
@@ -106,25 +97,9 @@ AWS Infrastructure
     ├── API Gateway
     └── IAM
 
-
 Simplified Visitor/User Counter Workflow:
 
-Visitor opens website
-        │
-        ▼
-JavaScript calls API Gateway
-        │
-        ▼
-Lambda Function executes
-        │
-        ▼
-DynamoDB increments count
-        │
-        ▼
-Lambda returns latest count
-        │
-        ▼
-Website displays updated visitor count
+Visitor opens website > JavaScript calls API Gateway > Lambda Function executes > DynamoDB increments count > Lambda returns latest count > Website displays updated visitor count
 
 
 Skills Demonstrated
