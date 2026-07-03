@@ -1,4 +1,4 @@
-Clouyd Resume Project
+Clouud Resume Project
 
 A serverless cloud resume built on AWS using Infrastructure as Code (Terraform).
 
