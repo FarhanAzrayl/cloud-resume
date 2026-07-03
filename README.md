@@ -1,3 +1,6 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0f6ff6d5-8f18-4cbc-b378-a096593038e8" />
+
+
 Clouud Resume Project
 
 A serverless cloud resume built on AWS using Infrastructure as Code (Terraform).
@@ -14,6 +17,7 @@ The styling and the aesthetics has yet to be upgraded or polished as the aim is 
 I wil also be including the issues and troubles that I faced throughout the process and how I overcome them.
 
 ---
+
 
 # Project Overview
 
