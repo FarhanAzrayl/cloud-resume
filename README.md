@@ -1,6 +1,3 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0f6ff6d5-8f18-4cbc-b378-a096593038e8" />
-
-
 Clouud Resume Project
 
 A serverless cloud resume built on AWS using Infrastructure as Code (Terraform).
@@ -71,6 +68,10 @@ Infrastructure as Code | Infrastructure is managed using Terraform | Current Ter
 * API Gateway
 * DynamoDB Table
 * Outputs
+
+Architectural Diagram
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/dec146d2-3baa-4284-9151-bcae7362489c" />
+
 
 Features of the project:
 
