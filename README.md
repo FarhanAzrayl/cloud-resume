@@ -6,9 +6,7 @@ This project aims to implement the aspects and services of AWS services with cos
 Implementing cloud engineering practices including Infrastructure as Code, serverless architecture, automation, AWS services integration, and frontend/backend communication.
 
 
-Live Demo
-
-**Website**
+Live **Website** Demo
 
 http://farhanazrayl-resume-2026.s3-website-ap-southeast-1.amazonaws.com
 
