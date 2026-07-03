@@ -84,19 +84,6 @@ Features of the project:
 * Git version control
 * GitHub repository for source control
 
-
-Deployment Workflow
-
-GitHub > Terraform > 
-
-AWS Infrastructure
-    │
-    ├── S3
-    ├── Lambda
-    ├── DynamoDB
-    ├── API Gateway
-    └── IAM
-
 Simplified Visitor/User Counter Workflow:
 
 Visitor opens website > JavaScript calls API Gateway > Lambda Function executes > DynamoDB increments count > Lambda returns latest count > Website displays updated visitor count
