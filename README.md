@@ -1,4 +1,4 @@
-# Cloud Resume Project ☁️
+Cloud Resume Project
 
 A serverless cloud resume built on AWS using Infrastructure as Code (Terraform).
 
